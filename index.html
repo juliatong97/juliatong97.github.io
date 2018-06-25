@@ -1,0 +1,161 @@
+<!doctype html>
+
+<html>
+<head>
+
+ <title>Bobblehead</title>
+
+   <link rel="stylesheet" href="bobblehead.css">
+   
+   <link href='https://fonts.googleapis.com/css?family=Bowlby One SC' rel='stylesheet'>
+   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+   <script src="livesearch.js"></script>
+
+   
+</head>
+
+<body>
+
+<nav id="nav-menu">
+     <ul>
+	     <li><a href="about-us.html">About Us</a></li>
+		 <li><a href="custom-made.html">Custom Made</a></li>
+		 <li><a href="collections.php">Collections</a></li>
+		 <li><a href="contact-us.php">Contact Us</a></li>
+	     <div class="searchbar">
+		   <form>		        
+		     <input type="text" class="search" onkeyup="showResult(this.value)" placeholder="Search...">
+		     <button type="submit"><i class="fa fa-search"></i></button>
+			 <div id="searchbar"></div>
+		   </form>
+		 <div>		
+	 </ul>
+</nav>
+
+<header>
+<a href="index.html"><img src="images/bobbleshop-logo2.png" width="700" height="150" alt="Bobblehead Site"></a>
+</header>
+
+
+
+<div id="wrapper">
+<div id="innerwrapper">
+
+
+<h1>MEET THE BOBBLESHOP BOBBLEHEADS!</h1>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="images/Darth_Vadar.jpg" style="width:75%">
+    <div class="text">Darth Vadar</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="images/Simba.jpg" style="width:75%">
+    <div class="text">Simba</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="images/Iron_Man.jpg" style="width:75%">
+    <div class="text">Iron Man</div>
+  </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="images/Hulk.jpg" style="width:75%">
+    <div class="text">The Hulk</div>
+  </div>
+  
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+
+<div id="content">
+
+<section id="col1">
+<h2>Welcome to the Bobbleshop! Where the latest bobbleheads reside.</h2>
+<p>The Bobbleshop team is combined by two sub-teams, sculptor and service team. </p>
+<p>
+Talented artists and superb customer service is the soul of Bobbles Australia. Enjoy the <a href="collections.html">collections</a> of our Bobblehead range.</p>
+<p>
+Have we told you that Bobbleshop also includes Custom Made bobblehead products? We enable people of all ages customise a bobblehead of their own! So if you wish to create your own bobblehead, fill out our <a href="custom-made.html">Custom Made form</a> on our page!</p>
+<p>All the service representatives are systematically trained with bobblehead knowledge and working closely with customer and artists.</p>
+<p>
+If you can any enquiries, please contact the Bobbleshop team <a href="contact-us.html">here</a>. 
+</p>
+</section>
+
+<nav id="news">
+	<h2>Bobblehead News</h2>
+	<ul>
+		<li><a href="http://www.dg.net/forums/messages.asp?forum=4&category=31&topic=1&message=1004">Righteous Wrath Updates</a></li>
+		<li><a href="http://www.dg.net/forums/messages.asp?forum=4&category=31&topic=1&message=1003">DG Verb Update</a></li>
+		<li><a href="http://www.dg.net/forums/messages.asp?forum=4&category=31&topic=1&message=1002">Bards Meeting</a></li>
+		<li><a href="http://www.dg.net/forums/messages.asp?forum=4&category=31&topic=1&message=1001">Staff Specials</a></li>
+		<li><a href="http://www.dg.net/forums/messages.asp?forum=4&category=31&topic=1&message=1000">DG Realm Makeover</a></li>
+	</ul>
+</nav>
+
+<section id="col3">
+
+
+
+<h2>Click here to see our latest and updated <a href="showforum.php">Forums!</a><h2>
+</section>
+
+</div>
+
+<footer>
+<ul>
+	<li>All rights reserved. &copy; Bobbleshop 2018</li>	
+	<li><a href="legals.html">Legals</a></li>
+	<li>Site By webmaster</li>
+	<li>Follow the Bobblehead makers --></li>
+	<li><a href="facebook.com"><img src="images/facebook.png" width="16" height="16" alt="Facebook"></a> <a href="twitter.com"><img src="images/twitter.png" width="16" height="16" alt="Twitter"></a> <a href="instagram.com"><img src="images/instagram.png" width="16" height="16" alt="Instagram"></a></li>
+</ul>
+</footer>
+</div>
+</div>
+
+</body>
+<html> 

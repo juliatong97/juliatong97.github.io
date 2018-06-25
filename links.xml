@@ -1,0 +1,34 @@
+<pages>
+  <link>
+     <title>Collections</title>
+     <url>http://localhost/Bobbleshop/collections.php</url>
+  </link>
+  <link>
+     <title>Contact</title>
+     <url>http://localhost/Bobbleshop/contact-us.html</url>
+  </link>
+  <link>
+     <title>Forums</title>
+     <url>http://localhost/Bobbleshop/showforum.php</url>
+  </link>
+  <link>
+     <title>History</title>
+     <url>http://localhost/Bobbleshop/about-us.html</url>
+  </link>
+  <link>
+     <title>Disney</title>
+     <url>http://localhost/Bobbleshop/collections.php?cat_id=1</url>
+  </link>
+  <link>
+     <title>Marvel</title>
+     <url>http://localhost/Bobbleshop/collections.php?cat_id=2</url>
+  </link>
+  <link>
+     <title>Star Wars</title>
+     <url>http://localhost/Bobbleshop/collections.php?cat_id=3</url>
+  </link>
+  <link>
+     <title>Team</title>
+     <url>http://localhost/Bobbleshop/about-us.html</url>
+  </link>
+</pages>

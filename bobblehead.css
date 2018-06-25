@@ -1,0 +1,374 @@
+* {
+	margin: 0em;
+	padding: 0em;
+	font-size: 100%;
+	border-style: none;
+	list-style-type: none;
+}
+
+body {
+	background-image: url(images/diamonds.png);
+	font-family: helvetica, sans-serif;
+	font-size: 90%;
+}
+
+#content {
+	margin-top: 0px;
+}
+
+a, a:link, a:visited {
+	text-decoration: none;
+	color: #333;	
+}
+
+a:hover {
+	color: #f9255d;		
+	text-decoration: none;
+}
+
+h1 {
+	color: #a71942;	
+	font-size: 2.3em;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-weight: lighter;
+	font-family: 'Bowlby One SC';
+}
+
+h2 {
+	color: #f9255d;	
+	font-size: 1.6em;	
+	padding-bottom: 10px;
+}
+
+p {
+	font-size: 0.9em;
+	padding-bottom: 10px;
+	line-height: 150%;
+}
+
+iframe {
+	padding-top: 20px;
+}
+
+#news li:last-of-type
+ {
+	font-size: 140%;
+	color: #8e4f2c;
+	margin-top: 20px;
+}
+
+#wrapper {
+	width: 1250px;
+	border-radius: 15px 50px;
+	padding: 15px 0;
+	margin: 30px auto;
+	background-image: url(images/whitediamond.png);
+}
+
+#innerwrapper {
+	width: 1100px;
+	margin:auto;
+	
+}
+
+header {
+	margin-top: 10px;
+}
+
+header img {
+    display: block; 
+	margin-left: 200px;
+}
+
+#searchbar{
+	color: #fff;
+}
+
+.current-page {
+	color: #ff326d;
+	background-color: #ff326d;
+}
+
+.searchbar {
+	float: right;
+	border-radius: 10px;
+	padding-top: 10px;
+	font-family: calibri;
+}
+
+.searchbar input[type=text] {
+	padding: 9px;
+	font-size: 0.8em;
+	border-radius: 10px 0 0 10px;
+}
+
+.searchbar button {
+	float: right;
+	padding: 9px;
+    margin-right: 10px;
+    background: #ff3770;
+    font-size: 0.8em;
+    border: none;
+    cursor: pointer;
+	border-radius: 0 10px 10px 0; 
+}
+
+.searchbar a {
+	color: #fff;
+}
+
+.searchbar a:hover {
+	color: #ff3770;
+}
+
+.searchbar button:hover {
+	background: #fa6ab8;
+}
+
+nav#nav-menu ul{
+	padding: 3px 30px;
+	font-size: 18px;
+	font-family: 'Bowlby One SC';
+	overflow: hidden;
+    background-color: #111;
+}
+
+nav#nav-menu li {
+    float: left;
+}
+
+nav#nav-menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav#nav-menu li a:hover {
+	color: #ff326d;
+    background-color: #333;
+}
+
+.fa:hover {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+
+.current-page {
+	color: #ff326d;
+	background-color: #ff326d;
+}
+
+
+#col1 {
+	width: 500px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#col1 img {
+	padding-bottom: 20px;
+}
+
+#col2 {
+	margin-left: 570px;
+	width: 500px;
+	padding-top: 20px;
+}
+
+#col2 a {
+	color: #f9255d;
+}
+
+#col2 a:hover {
+	color: #ff326d;
+}
+
+#col3 {
+	margin-left: 560px;
+}
+
+#news {
+	margin-left: 530px;
+	padding-top: 20px;
+	border-left: 1px solid #fff;
+	padding-left: 30px;
+	padding-bottom: 35px;
+}
+nav#news  ul{
+	display:flex;
+	flex-flow: column wrap;
+}
+#news li {
+	padding: 10px;	
+	color: #ccc194;	
+	width: 300px;
+}
+
+.contact-container input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+	font-size: 1em;
+}
+
+.contact-container input[type=submit] {
+    background-color: #ff3770;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.contact-container input[type=submit]:hover {
+    background-color: #fa6ab8;
+}
+
+.contact-container {
+    border-radius: 10px 25px;
+    background-color: #333;
+    padding: 20px;
+	color: #fff;
+}
+
+footer {
+	background-image: url(images/footer_bg.jpg);
+	background-repeat: no-repeat;
+	clear: left;
+	text-align: center;
+	font-size: 85%;
+	padding: 20px;
+}
+
+footer li {
+	display: inline;
+	text-align: center;
+	padding-left: 20px;
+}
+footer li:first-child {
+
+	padding-left: 0;
+}
+footer li a, a:active a:hover {
+	color: #999;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 225px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+left: -50px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #333;
+  font-size: 20px;
+  font-family: calibri;
+  padding: 0 12px;
+  zposition: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #333;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
